@@ -117,10 +117,10 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="View_layer\Login.cs">
+    <Compile Include="View_layer\Login\Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="View_layer\Login.Designer.cs">
+    <Compile Include="View_layer\Login\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="View_layer\CRUD\Edit_driver.resx">
@@ -142,7 +142,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="View_layer\Login.resx">
+    <EmbeddedResource Include="View_layer\Login\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />

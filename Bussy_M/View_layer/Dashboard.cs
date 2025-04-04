@@ -12,6 +12,8 @@ using System.Windows.Forms;
 using Microsoft.Win32;
 using Bussy_M.Data_Layer;
 using Bussy_M.View_layer.CRUD;
+using Bunifu.UI.WinForms;
+using Bussy_M.View_layer;
 
 
 namespace Bussy_M
@@ -125,6 +127,23 @@ namespace Bussy_M
             LastN_lbl.Text = Driver_dgv.SelectedRows[0].Cells[2].Value.ToString();
             Cedula_lbl.Text = Driver_dgv.SelectedRows[0].Cells[3].Value.ToString();
             date_lbl.Text = Driver_dgv.SelectedRows[0].Cells[4].Value.ToString();
+        }
+
+        private void bunifuButton21_Click(object sender, EventArgs e)
+        {
+            Login login = new Login();
+            login.Show();
+            this.Close();
+        }
+
+        private void Login_btn_Click(object sender, EventArgs e)
+        {
+            Panels.SetPage(0);
+        }
+
+        private void panel7_Click(object sender, EventArgs e)
+        {
+            Panels.SetPage(6);
         }
     }
 }

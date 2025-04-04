@@ -3,45 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\julio\\source\\repos\\Bussy_M\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\julio\\source\\repos\\BingBongFactory\\Datos\\DBconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{26DBC813-6AFB-4960-88A4-54D906946319}|Bussy_M\\Bussy_M.csproj|C:\\Users\\julio\\source\\repos\\Bussy_M\\bussy_m\\view_layer\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{26DBC813-6AFB-4960-88A4-54D906946319}|Bussy_M\\Bussy_M.csproj|solutionrelative:bussy_m\\view_layer\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{26DBC813-6AFB-4960-88A4-54D906946319}|Bussy_M\\Bussy_M.csproj|C:\\Users\\julio\\source\\repos\\Bussy_M\\bussy_m\\view_layer\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26DBC813-6AFB-4960-88A4-54D906946319}|Bussy_M\\Bussy_M.csproj|solutionrelative:bussy_m\\view_layer\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26DBC813-6AFB-4960-88A4-54D906946319}|Bussy_M\\Bussy_M.csproj|C:\\Users\\julio\\source\\repos\\Bussy_M\\bussy_m\\view_layer\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{26DBC813-6AFB-4960-88A4-54D906946319}|Bussy_M\\Bussy_M.csproj|solutionrelative:bussy_m\\view_layer\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{26DBC813-6AFB-4960-88A4-54D906946319}|Bussy_M\\Bussy_M.csproj|c:\\users\\julio\\source\\repos\\bussy_m\\bussy_m\\view_layer\\login\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{26DBC813-6AFB-4960-88A4-54D906946319}|Bussy_M\\Bussy_M.csproj|solutionrelative:bussy_m\\view_layer\\login\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\julio\\source\\repos\\BingBongFactory\\Presentacion\\Dashboard_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26DBC813-6AFB-4960-88A4-54D906946319}|Bussy_M\\Bussy_M.csproj|c:\\users\\julio\\source\\repos\\bussy_m\\bussy_m\\view_layer\\crud\\edit_driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{26DBC813-6AFB-4960-88A4-54D906946319}|Bussy_M\\Bussy_M.csproj|C:\\Users\\julio\\source\\repos\\Bussy_M\\bussy_m\\view_layer\\crud\\edit_driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26DBC813-6AFB-4960-88A4-54D906946319}|Bussy_M\\Bussy_M.csproj|solutionrelative:bussy_m\\view_layer\\crud\\edit_driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26DBC813-6AFB-4960-88A4-54D906946319}|Bussy_M\\Bussy_M.csproj|C:\\Users\\julio\\source\\repos\\Bussy_M\\bussy_m\\view_layer\\crud\\insert_driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{26DBC813-6AFB-4960-88A4-54D906946319}|Bussy_M\\Bussy_M.csproj|solutionrelative:bussy_m\\view_layer\\crud\\insert_driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{26DBC813-6AFB-4960-88A4-54D906946319}|Bussy_M\\Bussy_M.csproj|C:\\Users\\julio\\source\\repos\\Bussy_M\\bussy_m\\view_layer\\crud\\edit_driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{26DBC813-6AFB-4960-88A4-54D906946319}|Bussy_M\\Bussy_M.csproj|solutionrelative:bussy_m\\view_layer\\crud\\edit_driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26DBC813-6AFB-4960-88A4-54D906946319}|Bussy_M\\Bussy_M.csproj|C:\\Users\\julio\\source\\repos\\Bussy_M\\bussy_m\\view_layer\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26DBC813-6AFB-4960-88A4-54D906946319}|Bussy_M\\Bussy_M.csproj|solutionrelative:bussy_m\\view_layer\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26DBC813-6AFB-4960-88A4-54D906946319}|Bussy_M\\Bussy_M.csproj|C:\\Users\\julio\\source\\repos\\Bussy_M\\bussy_m\\view_layer\\crud\\insert_driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26DBC813-6AFB-4960-88A4-54D906946319}|Bussy_M\\Bussy_M.csproj|solutionrelative:bussy_m\\view_layer\\crud\\insert_driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\julio\\source\\repos\\BingBongFactory\\Presentacion\\Dashboard_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\julio\\source\\repos\\BingBongFactory\\Negocio\\ValidateProduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26DBC813-6AFB-4960-88A4-54D906946319}|Bussy_M\\Bussy_M.csproj|C:\\Users\\julio\\source\\repos\\Bussy_M\\bussy_m\\view_layer\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{26DBC813-6AFB-4960-88A4-54D906946319}|Bussy_M\\Bussy_M.csproj|solutionrelative:bussy_m\\view_layer\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\julio\\source\\repos\\BingBongFactory\\Presentacion\\Inventario\\FrmEditar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\julio\\source\\repos\\BingBongFactory\\Datos\\DBconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26DBC813-6AFB-4960-88A4-54D906946319}|Bussy_M\\Bussy_M.csproj|C:\\Users\\julio\\source\\repos\\Bussy_M\\bussy_m\\view_layer\\crud\\insert_driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{26DBC813-6AFB-4960-88A4-54D906946319}|Bussy_M\\Bussy_M.csproj|solutionrelative:bussy_m\\view_layer\\crud\\insert_driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26DBC813-6AFB-4960-88A4-54D906946319}|Bussy_M\\Bussy_M.csproj|C:\\Users\\julio\\source\\repos\\Bussy_M\\bussy_m\\view_layer\\crud\\insert_driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26DBC813-6AFB-4960-88A4-54D906946319}|Bussy_M\\Bussy_M.csproj|solutionrelative:bussy_m\\view_layer\\crud\\insert_driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\julio\\source\\repos\\BingBongFactory\\Presentacion\\Registro\\Sign_inInsert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -51,14 +50,15 @@
       "RelativeMoniker": "D:0:0:{26DBC813-6AFB-4960-88A4-54D906946319}|Bussy_M\\Bussy_M.csproj|solutionrelative:bussy_m\\data_layer\\data_layer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\julio\\source\\repos\\BingBongFactory\\Presentacion\\Inventario\\FrmEditar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26DBC813-6AFB-4960-88A4-54D906946319}|Bussy_M\\Bussy_M.csproj|C:\\Users\\julio\\source\\repos\\Bussy_M\\bussy_m\\view_layer\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26DBC813-6AFB-4960-88A4-54D906946319}|Bussy_M\\Bussy_M.csproj|solutionrelative:bussy_m\\view_layer\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\julio\\source\\repos\\BingBongFactory\\Presentacion\\Inventario\\frmInsertar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\julio\\source\\repos\\Bussy_M\\Bussy_M\\View_layer\\Login.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Bussy_M\\View_layer\\Login.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\julio\\source\\repos\\Bussy_M\\Bussy_M\\View_layer\\Login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Bussy_M\\View_layer\\Login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -68,7 +68,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 194,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -84,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Edit_driver.cs",
               "DocumentMoniker": "C:\\Users\\julio\\source\\repos\\Bussy_M\\Bussy_M\\View_layer\\CRUD\\Edit_driver.cs",
               "RelativeDocumentMoniker": "Bussy_M\\View_layer\\CRUD\\Edit_driver.cs",
@@ -101,16 +101,16 @@
               "Title": "Dashboard.cs",
               "DocumentMoniker": "C:\\Users\\julio\\source\\repos\\Bussy_M\\Bussy_M\\View_layer\\Dashboard.cs",
               "RelativeDocumentMoniker": "Bussy_M\\View_layer\\Dashboard.cs",
-              "ToolTip": "C:\\Users\\julio\\source\\repos\\Bussy_M\\Bussy_M\\View_layer\\Dashboard.cs",
-              "RelativeToolTip": "Bussy_M\\View_layer\\Dashboard.cs",
-              "ViewState": "AgIAAGIAAAAAAAAAAAApwIIAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\julio\\source\\repos\\Bussy_M\\Bussy_M\\View_layer\\Dashboard.cs*",
+              "RelativeToolTip": "Bussy_M\\View_layer\\Dashboard.cs*",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAAwJEAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-02T22:09:10.93Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Dashboard_form.cs",
               "DocumentMoniker": "C:\\Users\\julio\\source\\repos\\BingBongFactory\\Presentacion\\Dashboard_form.cs",
               "RelativeDocumentMoniker": "..\\BingBongFactory\\Presentacion\\Dashboard_form.cs",
@@ -123,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "Edit_driver.cs [Design]",
               "DocumentMoniker": "C:\\Users\\julio\\source\\repos\\Bussy_M\\Bussy_M\\View_layer\\CRUD\\Edit_driver.cs",
               "RelativeDocumentMoniker": "Bussy_M\\View_layer\\CRUD\\Edit_driver.cs",
@@ -135,19 +135,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Insert_driver.cs [Design]",
               "DocumentMoniker": "C:\\Users\\julio\\source\\repos\\Bussy_M\\Bussy_M\\View_layer\\CRUD\\Insert_driver.cs",
               "RelativeDocumentMoniker": "Bussy_M\\View_layer\\CRUD\\Insert_driver.cs",
               "ToolTip": "C:\\Users\\julio\\source\\repos\\Bussy_M\\Bussy_M\\View_layer\\CRUD\\Insert_driver.cs [Design]",
               "RelativeToolTip": "Bussy_M\\View_layer\\CRUD\\Insert_driver.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T13:09:38.364Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-04-03T13:09:38.364Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Insert_driver.cs",
               "DocumentMoniker": "C:\\Users\\julio\\source\\repos\\Bussy_M\\Bussy_M\\View_layer\\CRUD\\Insert_driver.cs",
               "RelativeDocumentMoniker": "Bussy_M\\View_layer\\CRUD\\Insert_driver.cs",
@@ -155,8 +154,7 @@
               "RelativeToolTip": "Bussy_M\\View_layer\\CRUD\\Insert_driver.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T13:35:58.318Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T13:35:58.318Z"
             },
             {
               "$type": "Document",
@@ -168,36 +166,35 @@
               "RelativeToolTip": "..\\BingBongFactory\\Presentacion\\Registro\\Sign_inInsert.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T15:16:51.195Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T15:16:51.195Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Dashboard.cs [Design]",
               "DocumentMoniker": "C:\\Users\\julio\\source\\repos\\Bussy_M\\Bussy_M\\View_layer\\Dashboard.cs",
               "RelativeDocumentMoniker": "Bussy_M\\View_layer\\Dashboard.cs",
-              "ToolTip": "C:\\Users\\julio\\source\\repos\\Bussy_M\\Bussy_M\\View_layer\\Dashboard.cs [Design]",
-              "RelativeToolTip": "Bussy_M\\View_layer\\Dashboard.cs [Design]",
+              "ToolTip": "C:\\Users\\julio\\source\\repos\\Bussy_M\\Bussy_M\\View_layer\\Dashboard.cs [Design]*",
+              "RelativeToolTip": "Bussy_M\\View_layer\\Dashboard.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-03T01:56:45.027Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 2,
               "Title": "Login.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\julio\\source\\repos\\Bussy_M\\Bussy_M\\View_layer\\Login.cs",
-              "RelativeDocumentMoniker": "Bussy_M\\View_layer\\Login.cs",
-              "ToolTip": "C:\\Users\\julio\\source\\repos\\Bussy_M\\Bussy_M\\View_layer\\Login.cs [Design]",
-              "RelativeToolTip": "Bussy_M\\View_layer\\Login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\julio\\source\\repos\\Bussy_M\\Bussy_M\\View_layer\\Login\\Login.cs",
+              "RelativeDocumentMoniker": "Bussy_M\\View_layer\\Login\\Login.cs",
+              "ToolTip": "C:\\Users\\julio\\source\\repos\\Bussy_M\\Bussy_M\\View_layer\\Login\\Login.cs [Design]",
+              "RelativeToolTip": "Bussy_M\\View_layer\\Login\\Login.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-04T14:53:31.001Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "ValidateProduct.cs",
               "DocumentMoniker": "C:\\Users\\julio\\source\\repos\\BingBongFactory\\Negocio\\ValidateProduct.cs",
               "RelativeDocumentMoniker": "..\\BingBongFactory\\Negocio\\ValidateProduct.cs",
@@ -210,7 +207,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 7,
+              "Title": "FrmEditar.cs",
+              "DocumentMoniker": "C:\\Users\\julio\\source\\repos\\BingBongFactory\\Presentacion\\Inventario\\FrmEditar.cs",
+              "RelativeDocumentMoniker": "..\\BingBongFactory\\Presentacion\\Inventario\\FrmEditar.cs",
+              "ToolTip": "C:\\Users\\julio\\source\\repos\\BingBongFactory\\Presentacion\\Inventario\\FrmEditar.cs",
+              "RelativeToolTip": "..\\BingBongFactory\\Presentacion\\Inventario\\FrmEditar.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T19:33:39.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "frmInsertar.cs",
               "DocumentMoniker": "C:\\Users\\julio\\source\\repos\\BingBongFactory\\Presentacion\\Inventario\\frmInsertar.cs",
               "RelativeDocumentMoniker": "..\\BingBongFactory\\Presentacion\\Inventario\\frmInsertar.cs",
@@ -230,12 +239,11 @@
               "RelativeToolTip": "Bussy_M\\View_layer\\Login.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T14:43:37.146Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T14:43:37.146Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
               "Title": "Login.cs",
               "DocumentMoniker": "C:\\Users\\julio\\source\\repos\\Bussy_M\\Bussy_M\\View_layer\\Login.cs",
               "RelativeDocumentMoniker": "Bussy_M\\View_layer\\Login.cs",
@@ -243,8 +251,19 @@
               "RelativeToolTip": "Bussy_M\\View_layer\\Login.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAuwCQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T21:33:44.064Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-02T21:33:44.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DBconnection.cs",
+              "DocumentMoniker": "C:\\Users\\julio\\source\\repos\\BingBongFactory\\Datos\\DBconnection.cs",
+              "RelativeDocumentMoniker": "..\\BingBongFactory\\Datos\\DBconnection.cs",
+              "ToolTip": "C:\\Users\\julio\\source\\repos\\BingBongFactory\\Datos\\DBconnection.cs",
+              "RelativeToolTip": "..\\BingBongFactory\\Datos\\DBconnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoBAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T12:42:24.706Z"
             },
             {
               "$type": "Document",
@@ -256,14 +275,13 @@
               "RelativeToolTip": "Bussy_M\\Data_Layer\\Data_layer.cs",
               "ViewState": "AgIAALsAAAAAAAAAAAAAwNoAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T19:38:12.273Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-02T19:38:12.273Z"
             }
           ]
         },
         {
           "DockedWidth": 194,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -276,32 +294,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "FrmEditar.cs",
-              "DocumentMoniker": "C:\\Users\\julio\\source\\repos\\BingBongFactory\\Presentacion\\Inventario\\FrmEditar.cs",
-              "RelativeDocumentMoniker": "..\\BingBongFactory\\Presentacion\\Inventario\\FrmEditar.cs",
-              "ToolTip": "C:\\Users\\julio\\source\\repos\\BingBongFactory\\Presentacion\\Inventario\\FrmEditar.cs",
-              "RelativeToolTip": "..\\BingBongFactory\\Presentacion\\Inventario\\FrmEditar.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T19:33:39.864Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DBconnection.cs",
-              "DocumentMoniker": "C:\\Users\\julio\\source\\repos\\BingBongFactory\\Datos\\DBconnection.cs",
-              "RelativeDocumentMoniker": "..\\BingBongFactory\\Datos\\DBconnection.cs",
-              "ToolTip": "C:\\Users\\julio\\source\\repos\\BingBongFactory\\Datos\\DBconnection.cs",
-              "RelativeToolTip": "..\\BingBongFactory\\Datos\\DBconnection.cs",
-              "ViewState": "AgIAAIQAAAAAAAAAAAAAAAoBAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T12:42:24.706Z",
-              "EditorCaption": ""
             }
           ]
         }
