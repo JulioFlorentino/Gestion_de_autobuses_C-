@@ -145,5 +145,27 @@ namespace Bussy_M
         {
             Panels.SetPage(6);
         }
+
+        private void Close_btn_Click(object sender, EventArgs e)
+        {
+            Application.Exit(); 
+        }
+
+        private void Maximice_btn_Click(object sender, EventArgs e)
+        {
+            if (this.WindowState == FormWindowState.Normal)
+            {
+                this.WindowState = FormWindowState.Maximized;
+            }
+            else if (this.WindowState == FormWindowState.Maximized)
+            {
+                this.WindowState = FormWindowState.Normal;
+            }
+        }
+
+        private void Minimize_btn_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
     }
 }
