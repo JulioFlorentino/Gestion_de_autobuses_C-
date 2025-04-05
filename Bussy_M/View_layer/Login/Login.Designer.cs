@@ -32,12 +32,12 @@
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties6 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties7 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties8 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties1 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties2 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties3 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties4 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.bunifuFormDock1 = new Bunifu.UI.WinForms.BunifuFormDock();
             this.Email_txbx = new Bunifu.UI.WinForms.BunifuTextBox();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -49,6 +49,7 @@
             this.Login_btn = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2();
             this.Password_txbx = new Bunifu.UI.WinForms.BunifuTextBox();
             this.WP_label = new Bunifu.UI.WinForms.BunifuLabel();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -124,7 +125,7 @@
             this.Email_txbx.Lines = new string[] {
         "admin"};
             this.Email_txbx.Location = new System.Drawing.Point(217, 329);
-            this.Email_txbx.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Email_txbx.Margin = new System.Windows.Forms.Padding(4);
             this.Email_txbx.MaxLength = 32767;
             this.Email_txbx.MinimumSize = new System.Drawing.Size(1, 1);
             this.Email_txbx.Modified = false;
@@ -150,7 +151,7 @@
             stateProperties8.ForeColor = System.Drawing.Color.White;
             stateProperties8.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.Email_txbx.OnIdleState = stateProperties8;
-            this.Email_txbx.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Email_txbx.Padding = new System.Windows.Forms.Padding(4);
             this.Email_txbx.PasswordChar = '\0';
             this.Email_txbx.PlaceholderForeColor = System.Drawing.Color.DimGray;
             this.Email_txbx.PlaceholderText = "Introduce your email";
@@ -178,10 +179,10 @@
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.panel1.Controls.Add(this.l_close_btn);
             this.panel1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel1.Location = new System.Drawing.Point(4, 15);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Location = new System.Drawing.Point(0, 15);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(727, 238);
+            this.panel1.Size = new System.Drawing.Size(735, 238);
             this.panel1.TabIndex = 12;
             // 
             // l_close_btn
@@ -191,7 +192,7 @@
             this.l_close_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.l_close_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.l_close_btn.Location = new System.Drawing.Point(665, 4);
-            this.l_close_btn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.l_close_btn.Margin = new System.Windows.Forms.Padding(4);
             this.l_close_btn.Name = "l_close_btn";
             this.l_close_btn.Size = new System.Drawing.Size(36, 36);
             this.l_close_btn.TabIndex = 13;
@@ -206,7 +207,7 @@
             this.bunifuLabel1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel1.ForeColor = System.Drawing.Color.White;
             this.bunifuLabel1.Location = new System.Drawing.Point(112, 340);
-            this.bunifuLabel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel1.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel1.Name = "bunifuLabel1";
             this.bunifuLabel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel1.Size = new System.Drawing.Size(52, 28);
@@ -223,7 +224,7 @@
             this.bunifuLabel2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel2.ForeColor = System.Drawing.Color.White;
             this.bunifuLabel2.Location = new System.Drawing.Point(112, 463);
-            this.bunifuLabel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel2.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel2.Name = "bunifuLabel2";
             this.bunifuLabel2.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel2.Size = new System.Drawing.Size(89, 28);
@@ -242,7 +243,7 @@
             this.bunifuSeparator1.LineStyle = Bunifu.UI.WinForms.BunifuSeparator.LineStyles.Solid;
             this.bunifuSeparator1.LineThickness = 1;
             this.bunifuSeparator1.Location = new System.Drawing.Point(105, 373);
-            this.bunifuSeparator1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.bunifuSeparator1.Margin = new System.Windows.Forms.Padding(5);
             this.bunifuSeparator1.Name = "bunifuSeparator1";
             this.bunifuSeparator1.Orientation = Bunifu.UI.WinForms.BunifuSeparator.LineOrientation.Horizontal;
             this.bunifuSeparator1.Size = new System.Drawing.Size(531, 12);
@@ -258,7 +259,7 @@
             this.bunifuSeparator2.LineStyle = Bunifu.UI.WinForms.BunifuSeparator.LineStyles.Solid;
             this.bunifuSeparator2.LineThickness = 1;
             this.bunifuSeparator2.Location = new System.Drawing.Point(108, 496);
-            this.bunifuSeparator2.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.bunifuSeparator2.Margin = new System.Windows.Forms.Padding(5);
             this.bunifuSeparator2.Name = "bunifuSeparator2";
             this.bunifuSeparator2.Orientation = Bunifu.UI.WinForms.BunifuSeparator.LineOrientation.Horizontal;
             this.bunifuSeparator2.Size = new System.Drawing.Size(532, 12);
@@ -311,8 +312,8 @@
             this.Login_btn.IdleIconLeftImage = null;
             this.Login_btn.IdleIconRightImage = null;
             this.Login_btn.IndicateFocus = false;
-            this.Login_btn.Location = new System.Drawing.Point(229, 672);
-            this.Login_btn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Login_btn.Location = new System.Drawing.Point(238, 672);
+            this.Login_btn.Margin = new System.Windows.Forms.Padding(4);
             this.Login_btn.Name = "Login_btn";
             this.Login_btn.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.Login_btn.OnDisabledState.BorderRadius = 20;
@@ -387,7 +388,7 @@
             this.Password_txbx.Lines = new string[] {
         "admin"};
             this.Password_txbx.Location = new System.Drawing.Point(216, 447);
-            this.Password_txbx.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Password_txbx.Margin = new System.Windows.Forms.Padding(4);
             this.Password_txbx.MaxLength = 32767;
             this.Password_txbx.MinimumSize = new System.Drawing.Size(1, 1);
             this.Password_txbx.Modified = false;
@@ -413,7 +414,7 @@
             stateProperties4.ForeColor = System.Drawing.Color.White;
             stateProperties4.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.Password_txbx.OnIdleState = stateProperties4;
-            this.Password_txbx.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Password_txbx.Padding = new System.Windows.Forms.Padding(4);
             this.Password_txbx.PasswordChar = '*';
             this.Password_txbx.PlaceholderForeColor = System.Drawing.Color.DimGray;
             this.Password_txbx.PlaceholderText = "Introduce your password";
@@ -442,7 +443,7 @@
             this.WP_label.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.WP_label.ForeColor = System.Drawing.Color.Red;
             this.WP_label.Location = new System.Drawing.Point(112, 534);
-            this.WP_label.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.WP_label.Margin = new System.Windows.Forms.Padding(4);
             this.WP_label.Name = "WP_label";
             this.WP_label.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.WP_label.Size = new System.Drawing.Size(233, 28);
@@ -452,12 +453,26 @@
             this.WP_label.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             this.WP_label.Visible = false;
             // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.DodgerBlue;
+            this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.panel2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(735, 41);
+            this.panel2.TabIndex = 14;
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.ClientSize = new System.Drawing.Size(735, 802);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.WP_label);
             this.Controls.Add(this.Password_txbx);
             this.Controls.Add(this.Login_btn);
@@ -465,10 +480,9 @@
             this.Controls.Add(this.bunifuSeparator1);
             this.Controls.Add(this.bunifuLabel2);
             this.Controls.Add(this.bunifuLabel1);
-            this.Controls.Add(this.panel1);
             this.Controls.Add(this.Email_txbx);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Login";
             this.Text = "Password";
             this.panel1.ResumeLayout(false);
@@ -490,5 +504,6 @@
         private Bunifu.UI.WinForms.BunifuTextBox Password_txbx;
         private Bunifu.UI.WinForms.BunifuLabel WP_label;
         private System.Windows.Forms.Panel l_close_btn;
+        private System.Windows.Forms.Panel panel2;
     }
 }

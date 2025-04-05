@@ -12,6 +12,8 @@ using System.Windows.Forms;
 using Microsoft.Win32;
 using Bussy_M.Data_Layer;
 using Bussy_M.View_layer.CRUD;
+using Bunifu.UI.WinForms;
+using Bussy_M.View_layer;
 
 
 namespace Bussy_M
@@ -125,6 +127,79 @@ namespace Bussy_M
             LastN_lbl.Text = Driver_dgv.SelectedRows[0].Cells[2].Value.ToString();
             Cedula_lbl.Text = Driver_dgv.SelectedRows[0].Cells[3].Value.ToString();
             date_lbl.Text = Driver_dgv.SelectedRows[0].Cells[4].Value.ToString();
+        }
+
+        private void bunifuButton21_Click(object sender, EventArgs e)
+        {
+            Login login = new Login();
+            login.Show();
+            this.Close();
+        }
+
+        private void Login_btn_Click(object sender, EventArgs e)
+        {
+            Panels.SetPage(0);
+        }
+
+        private void panel7_Click(object sender, EventArgs e)
+        {
+            Panels.SetPage(6);
+        }
+
+        private void Close_btn_Click(object sender, EventArgs e)
+        {
+            Application.Exit(); 
+        }
+
+        private void Maximice_btn_Click(object sender, EventArgs e)
+        {
+            if (this.WindowState == FormWindowState.Normal)
+            {
+                this.WindowState = FormWindowState.Maximized;
+            }
+            else if (this.WindowState == FormWindowState.Maximized)
+            {
+                this.WindowState = FormWindowState.Normal;
+            }
+        }
+
+        private void Minimize_btn_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void Calendary_btn_Click(object sender, EventArgs e)
+        {
+            Panels.SetPage(3);
+        }
+
+        private void Dashboard_Load(object sender, EventArgs e)
+        {
+            int current_hour = DateTime.Now.Hour;
+
+            if (current_hour >= 6 && current_hour < 12)
+            {
+                Salute_lbl.Text = "Buenos dias!";
+            }
+            else if (current_hour >= 12 && current_hour < 18)
+            {
+                Salute_lbl.Text = "Buenas tardes!";
+            }
+            else
+            {
+                Salute_lbl.Text = "Buenas noches!";
+            }
+        }
+
+        private void Time_tm_Tick(object sender, EventArgs e)
+        {
+            hour_lbl.Text = DateTime.Now.ToShortTimeString();
+            Date.Text = DateTime.Now.ToShortDateString();
+        }
+
+        private void resize()
+        {
+
         }
     }
 }
