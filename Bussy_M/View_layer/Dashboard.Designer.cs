@@ -30,17 +30,17 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboard));
-            Utilities.BunifuPages.BunifuAnimatorNS.Animation animation2 = new Utilities.BunifuPages.BunifuAnimatorNS.Animation();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges borderEdges7 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges borderEdges8 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges();
+            Utilities.BunifuPages.BunifuAnimatorNS.Animation animation1 = new Utilities.BunifuPages.BunifuAnimatorNS.Animation();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges borderEdges2 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges();
             this.bunifuFormDock1 = new Bunifu.UI.WinForms.BunifuFormDock();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.bunifuLabel3 = new Bunifu.UI.WinForms.BunifuLabel();
-            this.bunifuLabel2 = new Bunifu.UI.WinForms.BunifuLabel();
-            this.bunifuLabel1 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.Salute_lbl = new Bunifu.UI.WinForms.BunifuLabel();
+            this.Date = new Bunifu.UI.WinForms.BunifuLabel();
+            this.hour_lbl = new Bunifu.UI.WinForms.BunifuLabel();
             this.Sidebar = new Bunifu.UI.WinForms.BunifuPanel();
             this.panel7 = new System.Windows.Forms.Panel();
             this.home_btn = new System.Windows.Forms.Panel();
@@ -87,6 +87,11 @@
             this.bunifuLabel8 = new Bunifu.UI.WinForms.BunifuLabel();
             this.Actualizar_tabla = new System.Windows.Forms.Timer(this.components);
             this.bunifuFormDrag1 = new Bunifu.UI.WinForms.BunifuFormDrag();
+            this.Time_tm = new System.Windows.Forms.Timer(this.components);
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.bunifuCircleProgress1 = new Bunifu.UI.WinForms.BunifuCircleProgress();
+            this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
+            this.bunifuRadialGauge1 = new Bunifu.UI.WinForms.BunifuRadialGauge();
             this.tabPage1.SuspendLayout();
             this.Sidebar.SuspendLayout();
             this.Bar.SuspendLayout();
@@ -139,68 +144,69 @@
             // tabPage1
             // 
             this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.tabPage1.Controls.Add(this.bunifuLabel3);
-            this.tabPage1.Controls.Add(this.bunifuLabel2);
-            this.tabPage1.Controls.Add(this.bunifuLabel1);
+            this.tabPage1.Controls.Add(this.bunifuRadialGauge1);
+            this.tabPage1.Controls.Add(this.bunifuCircleProgress1);
+            this.tabPage1.Controls.Add(this.monthCalendar1);
+            this.tabPage1.Controls.Add(this.Date);
+            this.tabPage1.Controls.Add(this.panel8);
+            this.tabPage1.Controls.Add(this.Salute_lbl);
+            this.tabPage1.Controls.Add(this.hour_lbl);
             this.tabPage1.Location = new System.Drawing.Point(4, 4);
-            this.tabPage1.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPage1.Size = new System.Drawing.Size(1397, 790);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage1.Size = new System.Drawing.Size(1046, 639);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Inicio";
             // 
-            // bunifuLabel3
+            // Salute_lbl
             // 
-            this.bunifuLabel3.AllowParentOverrides = false;
-            this.bunifuLabel3.AutoEllipsis = false;
-            this.bunifuLabel3.CursorType = null;
-            this.bunifuLabel3.Font = new System.Drawing.Font("Segoe UI", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(179)))), ((int)(((byte)(179)))), ((int)(((byte)(179)))));
-            this.bunifuLabel3.Location = new System.Drawing.Point(21, 31);
-            this.bunifuLabel3.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuLabel3.Name = "bunifuLabel3";
-            this.bunifuLabel3.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel3.Size = new System.Drawing.Size(347, 106);
-            this.bunifuLabel3.TabIndex = 2;
-            this.bunifuLabel3.Text = "SALUDOS";
-            this.bunifuLabel3.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel3.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            this.Salute_lbl.AllowParentOverrides = false;
+            this.Salute_lbl.AutoEllipsis = false;
+            this.Salute_lbl.CursorType = null;
+            this.Salute_lbl.Font = new System.Drawing.Font("Segoe UI", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Salute_lbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(179)))), ((int)(((byte)(179)))), ((int)(((byte)(179)))));
+            this.Salute_lbl.Location = new System.Drawing.Point(6, 2);
+            this.Salute_lbl.Name = "Salute_lbl";
+            this.Salute_lbl.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.Salute_lbl.Size = new System.Drawing.Size(276, 86);
+            this.Salute_lbl.TabIndex = 2;
+            this.Salute_lbl.Text = "SALUDOS";
+            this.Salute_lbl.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.Salute_lbl.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
-            // bunifuLabel2
+            // Date
             // 
-            this.bunifuLabel2.AllowParentOverrides = false;
-            this.bunifuLabel2.AutoEllipsis = false;
-            this.bunifuLabel2.CursorType = null;
-            this.bunifuLabel2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(179)))), ((int)(((byte)(179)))), ((int)(((byte)(179)))));
-            this.bunifuLabel2.Location = new System.Drawing.Point(232, 159);
-            this.bunifuLabel2.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuLabel2.Name = "bunifuLabel2";
-            this.bunifuLabel2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel2.Size = new System.Drawing.Size(148, 32);
-            this.bunifuLabel2.TabIndex = 1;
-            this.bunifuLabel2.Text = "DD/MM/YYYY";
-            this.bunifuLabel2.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel2.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            this.Date.AllowParentOverrides = false;
+            this.Date.AutoEllipsis = false;
+            this.Date.CursorType = null;
+            this.Date.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Date.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(179)))), ((int)(((byte)(179)))), ((int)(((byte)(179)))));
+            this.Date.Location = new System.Drawing.Point(11, 147);
+            this.Date.Name = "Date";
+            this.Date.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.Date.Size = new System.Drawing.Size(118, 25);
+            this.Date.TabIndex = 1;
+            this.Date.Text = "DD/MM/YYYY";
+            this.Date.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.Date.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
-            // bunifuLabel1
+            // hour_lbl
             // 
-            this.bunifuLabel1.AllowParentOverrides = false;
-            this.bunifuLabel1.AutoEllipsis = false;
-            this.bunifuLabel1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel1.CursorType = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel1.Font = new System.Drawing.Font("Segoe UI", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(179)))), ((int)(((byte)(179)))), ((int)(((byte)(179)))));
-            this.bunifuLabel1.Location = new System.Drawing.Point(21, 112);
-            this.bunifuLabel1.Margin = new System.Windows.Forms.Padding(1);
-            this.bunifuLabel1.Name = "bunifuLabel1";
-            this.bunifuLabel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel1.Size = new System.Drawing.Size(189, 106);
-            this.bunifuLabel1.TabIndex = 0;
-            this.bunifuLabel1.Text = "00:00";
-            this.bunifuLabel1.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel1.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            this.hour_lbl.AllowParentOverrides = false;
+            this.hour_lbl.AutoEllipsis = false;
+            this.hour_lbl.Cursor = System.Windows.Forms.Cursors.Default;
+            this.hour_lbl.CursorType = System.Windows.Forms.Cursors.Default;
+            this.hour_lbl.Font = new System.Drawing.Font("Segoe UI", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hour_lbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(179)))), ((int)(((byte)(179)))), ((int)(((byte)(179)))));
+            this.hour_lbl.Location = new System.Drawing.Point(5, 68);
+            this.hour_lbl.Margin = new System.Windows.Forms.Padding(1);
+            this.hour_lbl.Name = "hour_lbl";
+            this.hour_lbl.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.hour_lbl.Size = new System.Drawing.Size(154, 86);
+            this.hour_lbl.TabIndex = 0;
+            this.hour_lbl.Text = "00:00";
+            this.hour_lbl.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.hour_lbl.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
             // Sidebar
             // 
@@ -220,10 +226,9 @@
             this.Sidebar.Controls.Add(this.Bus_btn);
             this.Sidebar.Dock = System.Windows.Forms.DockStyle.Left;
             this.Sidebar.Location = new System.Drawing.Point(0, 0);
-            this.Sidebar.Margin = new System.Windows.Forms.Padding(4);
             this.Sidebar.Name = "Sidebar";
             this.Sidebar.ShowBorders = true;
-            this.Sidebar.Size = new System.Drawing.Size(68, 868);
+            this.Sidebar.Size = new System.Drawing.Size(51, 705);
             this.Sidebar.TabIndex = 0;
             // 
             // panel7
@@ -233,10 +238,10 @@
             this.panel7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel7.BackgroundImage")));
             this.panel7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.panel7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel7.Location = new System.Drawing.Point(15, 805);
-            this.panel7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel7.Location = new System.Drawing.Point(11, 654);
+            this.panel7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(44, 44);
+            this.panel7.Size = new System.Drawing.Size(33, 36);
             this.panel7.TabIndex = 4;
             this.panel7.Click += new System.EventHandler(this.panel7_Click);
             // 
@@ -246,10 +251,10 @@
             this.home_btn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("home_btn.BackgroundImage")));
             this.home_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.home_btn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.home_btn.Location = new System.Drawing.Point(15, 74);
-            this.home_btn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.home_btn.Location = new System.Drawing.Point(11, 60);
+            this.home_btn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.home_btn.Name = "home_btn";
-            this.home_btn.Size = new System.Drawing.Size(44, 46);
+            this.home_btn.Size = new System.Drawing.Size(33, 37);
             this.home_btn.TabIndex = 2;
             this.home_btn.Click += new System.EventHandler(this.home_btn_Click);
             // 
@@ -260,10 +265,10 @@
             this.panel5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel5.BackgroundImage")));
             this.panel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.panel5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel5.Location = new System.Drawing.Point(12, 757);
-            this.panel5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel5.Location = new System.Drawing.Point(9, 615);
+            this.panel5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(44, 44);
+            this.panel5.Size = new System.Drawing.Size(33, 36);
             this.panel5.TabIndex = 3;
             // 
             // panel4
@@ -272,10 +277,10 @@
             this.panel4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel4.BackgroundImage")));
             this.panel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.panel4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel4.Location = new System.Drawing.Point(15, 14);
-            this.panel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel4.Location = new System.Drawing.Point(11, 11);
+            this.panel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(44, 46);
+            this.panel4.Size = new System.Drawing.Size(33, 37);
             this.panel4.TabIndex = 2;
             // 
             // BI__btn
@@ -284,10 +289,10 @@
             this.BI__btn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BI__btn.BackgroundImage")));
             this.BI__btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.BI__btn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BI__btn.Location = new System.Drawing.Point(15, 324);
-            this.BI__btn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BI__btn.Location = new System.Drawing.Point(11, 263);
+            this.BI__btn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BI__btn.Name = "BI__btn";
-            this.BI__btn.Size = new System.Drawing.Size(44, 44);
+            this.BI__btn.Size = new System.Drawing.Size(33, 36);
             this.BI__btn.TabIndex = 2;
             // 
             // Calendary_btn
@@ -296,11 +301,12 @@
             this.Calendary_btn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Calendary_btn.BackgroundImage")));
             this.Calendary_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.Calendary_btn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Calendary_btn.Location = new System.Drawing.Point(15, 263);
-            this.Calendary_btn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Calendary_btn.Location = new System.Drawing.Point(11, 214);
+            this.Calendary_btn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Calendary_btn.Name = "Calendary_btn";
-            this.Calendary_btn.Size = new System.Drawing.Size(44, 44);
+            this.Calendary_btn.Size = new System.Drawing.Size(33, 36);
             this.Calendary_btn.TabIndex = 1;
+            this.Calendary_btn.Click += new System.EventHandler(this.Calendary_btn_Click);
             // 
             // Driver_btn
             // 
@@ -308,10 +314,10 @@
             this.Driver_btn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Driver_btn.BackgroundImage")));
             this.Driver_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.Driver_btn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Driver_btn.Location = new System.Drawing.Point(15, 138);
-            this.Driver_btn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Driver_btn.Location = new System.Drawing.Point(11, 112);
+            this.Driver_btn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Driver_btn.Name = "Driver_btn";
-            this.Driver_btn.Size = new System.Drawing.Size(44, 46);
+            this.Driver_btn.Size = new System.Drawing.Size(33, 37);
             this.Driver_btn.TabIndex = 1;
             this.Driver_btn.Click += new System.EventHandler(this.Driver_btn_Click);
             // 
@@ -321,10 +327,10 @@
             this.Bus_btn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Bus_btn.BackgroundImage")));
             this.Bus_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.Bus_btn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Bus_btn.Location = new System.Drawing.Point(15, 202);
-            this.Bus_btn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Bus_btn.Location = new System.Drawing.Point(11, 164);
+            this.Bus_btn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Bus_btn.Name = "Bus_btn";
-            this.Bus_btn.Size = new System.Drawing.Size(44, 44);
+            this.Bus_btn.Size = new System.Drawing.Size(33, 36);
             this.Bus_btn.TabIndex = 0;
             // 
             // Bar
@@ -339,11 +345,10 @@
             this.Bar.Controls.Add(this.Maximice_btn);
             this.Bar.Controls.Add(this.Close_btn);
             this.Bar.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Bar.Location = new System.Drawing.Point(68, 0);
-            this.Bar.Margin = new System.Windows.Forms.Padding(4);
+            this.Bar.Location = new System.Drawing.Point(51, 0);
             this.Bar.Name = "Bar";
             this.Bar.ShowBorders = true;
-            this.Bar.Size = new System.Drawing.Size(1405, 49);
+            this.Bar.Size = new System.Drawing.Size(1054, 40);
             this.Bar.TabIndex = 1;
             // 
             // Minimize_btn
@@ -353,10 +358,10 @@
             this.Minimize_btn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Minimize_btn.BackgroundImage")));
             this.Minimize_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.Minimize_btn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Minimize_btn.Location = new System.Drawing.Point(1258, 2);
-            this.Minimize_btn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Minimize_btn.Location = new System.Drawing.Point(944, 2);
+            this.Minimize_btn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Minimize_btn.Name = "Minimize_btn";
-            this.Minimize_btn.Size = new System.Drawing.Size(44, 46);
+            this.Minimize_btn.Size = new System.Drawing.Size(33, 37);
             this.Minimize_btn.TabIndex = 5;
             this.Minimize_btn.Click += new System.EventHandler(this.Minimize_btn_Click);
             // 
@@ -367,10 +372,10 @@
             this.Maximice_btn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Maximice_btn.BackgroundImage")));
             this.Maximice_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.Maximice_btn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Maximice_btn.Location = new System.Drawing.Point(1308, 3);
-            this.Maximice_btn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Maximice_btn.Location = new System.Drawing.Point(981, 2);
+            this.Maximice_btn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Maximice_btn.Name = "Maximice_btn";
-            this.Maximice_btn.Size = new System.Drawing.Size(44, 46);
+            this.Maximice_btn.Size = new System.Drawing.Size(33, 37);
             this.Maximice_btn.TabIndex = 4;
             this.Maximice_btn.Click += new System.EventHandler(this.Maximice_btn_Click);
             // 
@@ -381,10 +386,10 @@
             this.Close_btn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Close_btn.BackgroundImage")));
             this.Close_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.Close_btn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Close_btn.Location = new System.Drawing.Point(1358, 3);
-            this.Close_btn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Close_btn.Location = new System.Drawing.Point(1018, 2);
+            this.Close_btn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Close_btn.Name = "Close_btn";
-            this.Close_btn.Size = new System.Drawing.Size(43, 46);
+            this.Close_btn.Size = new System.Drawing.Size(32, 37);
             this.Close_btn.TabIndex = 3;
             this.Close_btn.Click += new System.EventHandler(this.Close_btn_Click);
             // 
@@ -400,33 +405,32 @@
             this.Panels.Controls.Add(this.tabPage6);
             this.Panels.Controls.Add(this.tabPage7);
             this.Panels.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Panels.Location = new System.Drawing.Point(68, 49);
-            this.Panels.Margin = new System.Windows.Forms.Padding(4);
+            this.Panels.Location = new System.Drawing.Point(51, 40);
             this.Panels.Multiline = true;
             this.Panels.Name = "Panels";
-            this.Panels.Page = this.tabPage7;
-            this.Panels.PageIndex = 6;
-            this.Panels.PageName = "tabPage7";
-            this.Panels.PageTitle = "Logout";
+            this.Panels.Page = this.tabPage1;
+            this.Panels.PageIndex = 0;
+            this.Panels.PageName = "tabPage1";
+            this.Panels.PageTitle = "Inicio";
             this.Panels.SelectedIndex = 0;
-            this.Panels.Size = new System.Drawing.Size(1405, 819);
+            this.Panels.Size = new System.Drawing.Size(1054, 665);
             this.Panels.TabIndex = 2;
-            animation2.AnimateOnlyDifferences = false;
-            animation2.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.BlindCoeff")));
-            animation2.LeafCoeff = 0F;
-            animation2.MaxTime = 1F;
-            animation2.MinTime = 0F;
-            animation2.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicCoeff")));
-            animation2.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicShift")));
-            animation2.MosaicSize = 0;
-            animation2.Padding = new System.Windows.Forms.Padding(0);
-            animation2.RotateCoeff = 0F;
-            animation2.RotateLimit = 0F;
-            animation2.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.ScaleCoeff")));
-            animation2.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.SlideCoeff")));
-            animation2.TimeCoeff = 0F;
-            animation2.TransparencyCoeff = 0F;
-            this.Panels.Transition = animation2;
+            animation1.AnimateOnlyDifferences = false;
+            animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
+            animation1.LeafCoeff = 0F;
+            animation1.MaxTime = 1F;
+            animation1.MinTime = 0F;
+            animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
+            animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
+            animation1.MosaicSize = 0;
+            animation1.Padding = new System.Windows.Forms.Padding(0);
+            animation1.RotateCoeff = 0F;
+            animation1.RotateLimit = 0F;
+            animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
+            animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
+            animation1.TimeCoeff = 0F;
+            animation1.TransparencyCoeff = 0F;
+            this.Panels.Transition = animation1;
             this.Panels.TransitionType = Utilities.BunifuPages.BunifuAnimatorNS.AnimationType.Custom;
             // 
             // tabPage2
@@ -449,10 +453,9 @@
             this.tabPage2.Controls.Add(this.bunifuImageButton1);
             this.tabPage2.Controls.Add(this.Driver_dgv);
             this.tabPage2.Location = new System.Drawing.Point(4, 4);
-            this.tabPage2.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPage2.Size = new System.Drawing.Size(1397, 790);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage2.Size = new System.Drawing.Size(1046, 639);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Driver";
             this.tabPage2.Click += new System.EventHandler(this.tabPage2_Click);
@@ -465,11 +468,10 @@
             this.Id_lbl.CursorType = System.Windows.Forms.Cursors.Default;
             this.Id_lbl.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Id_lbl.ForeColor = System.Drawing.Color.Lime;
-            this.Id_lbl.Location = new System.Drawing.Point(195, 209);
-            this.Id_lbl.Margin = new System.Windows.Forms.Padding(4);
+            this.Id_lbl.Location = new System.Drawing.Point(146, 170);
             this.Id_lbl.Name = "Id_lbl";
             this.Id_lbl.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.Id_lbl.Size = new System.Drawing.Size(24, 28);
+            this.Id_lbl.Size = new System.Drawing.Size(18, 21);
             this.Id_lbl.TabIndex = 15;
             this.Id_lbl.Text = "00";
             this.Id_lbl.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -481,10 +483,9 @@
             this.panel6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel6.BackgroundImage")));
             this.panel6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.panel6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel6.Location = new System.Drawing.Point(357, 452);
-            this.panel6.Margin = new System.Windows.Forms.Padding(4);
+            this.panel6.Location = new System.Drawing.Point(268, 367);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(91, 44);
+            this.panel6.Size = new System.Drawing.Size(68, 36);
             this.panel6.TabIndex = 14;
             this.panel6.Click += new System.EventHandler(this.panel6_Click);
             // 
@@ -497,11 +498,11 @@
             this.bunifuSeparator1.LineColor = System.Drawing.Color.Silver;
             this.bunifuSeparator1.LineStyle = Bunifu.UI.WinForms.BunifuSeparator.LineStyles.Solid;
             this.bunifuSeparator1.LineThickness = 1;
-            this.bunifuSeparator1.Location = new System.Drawing.Point(457, 20);
-            this.bunifuSeparator1.Margin = new System.Windows.Forms.Padding(5);
+            this.bunifuSeparator1.Location = new System.Drawing.Point(343, 16);
+            this.bunifuSeparator1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuSeparator1.Name = "bunifuSeparator1";
             this.bunifuSeparator1.Orientation = Bunifu.UI.WinForms.BunifuSeparator.LineOrientation.Vertical;
-            this.bunifuSeparator1.Size = new System.Drawing.Size(13, 790);
+            this.bunifuSeparator1.Size = new System.Drawing.Size(10, 642);
             this.bunifuSeparator1.TabIndex = 14;
             // 
             // panel3
@@ -510,10 +511,9 @@
             this.panel3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel3.BackgroundImage")));
             this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.panel3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel3.Location = new System.Drawing.Point(359, 400);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4);
+            this.panel3.Location = new System.Drawing.Point(269, 325);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(91, 44);
+            this.panel3.Size = new System.Drawing.Size(68, 36);
             this.panel3.TabIndex = 13;
             this.panel3.Click += new System.EventHandler(this.panel3_Click);
             // 
@@ -523,10 +523,9 @@
             this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.panel2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel2.Location = new System.Drawing.Point(359, 348);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4);
+            this.panel2.Location = new System.Drawing.Point(269, 283);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(91, 44);
+            this.panel2.Size = new System.Drawing.Size(68, 36);
             this.panel2.TabIndex = 12;
             this.panel2.Click += new System.EventHandler(this.panel2_Click);
             // 
@@ -536,10 +535,9 @@
             this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.panel1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel1.Location = new System.Drawing.Point(359, 297);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4);
+            this.panel1.Location = new System.Drawing.Point(269, 241);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(91, 44);
+            this.panel1.Size = new System.Drawing.Size(68, 36);
             this.panel1.TabIndex = 11;
             this.panel1.Click += new System.EventHandler(this.panel1_Click);
             // 
@@ -550,11 +548,10 @@
             this.date_lbl.CursorType = null;
             this.date_lbl.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.date_lbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(179)))), ((int)(((byte)(179)))), ((int)(((byte)(179)))));
-            this.date_lbl.Location = new System.Drawing.Point(240, 225);
-            this.date_lbl.Margin = new System.Windows.Forms.Padding(4);
+            this.date_lbl.Location = new System.Drawing.Point(180, 183);
             this.date_lbl.Name = "date_lbl";
             this.date_lbl.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.date_lbl.Size = new System.Drawing.Size(100, 20);
+            this.date_lbl.Size = new System.Drawing.Size(80, 15);
             this.date_lbl.TabIndex = 10;
             this.date_lbl.Text = "DD/MM/AAAA";
             this.date_lbl.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -567,11 +564,10 @@
             this.Cedula_lbl.CursorType = null;
             this.Cedula_lbl.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Cedula_lbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(179)))), ((int)(((byte)(179)))), ((int)(((byte)(179)))));
-            this.Cedula_lbl.Location = new System.Drawing.Point(239, 174);
-            this.Cedula_lbl.Margin = new System.Windows.Forms.Padding(4);
+            this.Cedula_lbl.Location = new System.Drawing.Point(179, 141);
             this.Cedula_lbl.Name = "Cedula_lbl";
             this.Cedula_lbl.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.Cedula_lbl.Size = new System.Drawing.Size(105, 20);
+            this.Cedula_lbl.Size = new System.Drawing.Size(83, 15);
             this.Cedula_lbl.TabIndex = 9;
             this.Cedula_lbl.Text = "Cedula ejemplo";
             this.Cedula_lbl.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -584,11 +580,10 @@
             this.LastN_lbl.CursorType = null;
             this.LastN_lbl.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LastN_lbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(179)))), ((int)(((byte)(179)))), ((int)(((byte)(179)))));
-            this.LastN_lbl.Location = new System.Drawing.Point(240, 127);
-            this.LastN_lbl.Margin = new System.Windows.Forms.Padding(4);
+            this.LastN_lbl.Location = new System.Drawing.Point(180, 103);
             this.LastN_lbl.Name = "LastN_lbl";
             this.LastN_lbl.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.LastN_lbl.Size = new System.Drawing.Size(116, 20);
+            this.LastN_lbl.Size = new System.Drawing.Size(90, 15);
             this.LastN_lbl.TabIndex = 8;
             this.LastN_lbl.Text = "Apeliido ejemplo";
             this.LastN_lbl.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -601,11 +596,10 @@
             this.Name_lbl.CursorType = null;
             this.Name_lbl.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name_lbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(179)))), ((int)(((byte)(179)))), ((int)(((byte)(179)))));
-            this.Name_lbl.Location = new System.Drawing.Point(240, 75);
-            this.Name_lbl.Margin = new System.Windows.Forms.Padding(4);
+            this.Name_lbl.Location = new System.Drawing.Point(180, 61);
             this.Name_lbl.Name = "Name_lbl";
             this.Name_lbl.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.Name_lbl.Size = new System.Drawing.Size(114, 20);
+            this.Name_lbl.Size = new System.Drawing.Size(90, 15);
             this.Name_lbl.TabIndex = 7;
             this.Name_lbl.Text = "Nombre ejemplo";
             this.Name_lbl.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -618,11 +612,10 @@
             this.bunifuLabel7.CursorType = null;
             this.bunifuLabel7.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(179)))), ((int)(((byte)(179)))), ((int)(((byte)(179)))));
-            this.bunifuLabel7.Location = new System.Drawing.Point(239, 199);
-            this.bunifuLabel7.Margin = new System.Windows.Forms.Padding(4);
+            this.bunifuLabel7.Location = new System.Drawing.Point(179, 162);
             this.bunifuLabel7.Name = "bunifuLabel7";
             this.bunifuLabel7.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel7.Size = new System.Drawing.Size(157, 20);
+            this.bunifuLabel7.Size = new System.Drawing.Size(125, 15);
             this.bunifuLabel7.TabIndex = 6;
             this.bunifuLabel7.Text = "Fecha de contratacion:";
             this.bunifuLabel7.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -635,11 +628,10 @@
             this.bunifuLabel6.CursorType = null;
             this.bunifuLabel6.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(179)))), ((int)(((byte)(179)))), ((int)(((byte)(179)))));
-            this.bunifuLabel6.Location = new System.Drawing.Point(239, 148);
-            this.bunifuLabel6.Margin = new System.Windows.Forms.Padding(4);
+            this.bunifuLabel6.Location = new System.Drawing.Point(179, 120);
             this.bunifuLabel6.Name = "bunifuLabel6";
             this.bunifuLabel6.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel6.Size = new System.Drawing.Size(51, 20);
+            this.bunifuLabel6.Size = new System.Drawing.Size(40, 15);
             this.bunifuLabel6.TabIndex = 5;
             this.bunifuLabel6.Text = "Cedula:";
             this.bunifuLabel6.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -652,11 +644,10 @@
             this.bunifuLabel5.CursorType = null;
             this.bunifuLabel5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(179)))), ((int)(((byte)(179)))), ((int)(((byte)(179)))));
-            this.bunifuLabel5.Location = new System.Drawing.Point(239, 101);
-            this.bunifuLabel5.Margin = new System.Windows.Forms.Padding(4);
+            this.bunifuLabel5.Location = new System.Drawing.Point(179, 82);
             this.bunifuLabel5.Name = "bunifuLabel5";
             this.bunifuLabel5.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel5.Size = new System.Drawing.Size(62, 20);
+            this.bunifuLabel5.Size = new System.Drawing.Size(48, 15);
             this.bunifuLabel5.TabIndex = 4;
             this.bunifuLabel5.Text = "Apellido:";
             this.bunifuLabel5.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -670,11 +661,10 @@
             this.bunifuLabel4.CursorType = System.Windows.Forms.Cursors.Default;
             this.bunifuLabel4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(179)))), ((int)(((byte)(179)))), ((int)(((byte)(179)))));
-            this.bunifuLabel4.Location = new System.Drawing.Point(239, 47);
-            this.bunifuLabel4.Margin = new System.Windows.Forms.Padding(4);
+            this.bunifuLabel4.Location = new System.Drawing.Point(179, 38);
             this.bunifuLabel4.Name = "bunifuLabel4";
             this.bunifuLabel4.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel4.Size = new System.Drawing.Size(62, 20);
+            this.bunifuLabel4.Size = new System.Drawing.Size(49, 15);
             this.bunifuLabel4.TabIndex = 3;
             this.bunifuLabel4.Text = "Nombre:";
             this.bunifuLabel4.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -697,18 +687,17 @@
             this.bunifuImageButton1.ImageActive = null;
             this.bunifuImageButton1.ImageLocation = null;
             this.bunifuImageButton1.ImageMargin = 20;
-            this.bunifuImageButton1.ImageSize = new System.Drawing.Size(203, 177);
-            this.bunifuImageButton1.ImageZoomSize = new System.Drawing.Size(223, 197);
+            this.bunifuImageButton1.ImageSize = new System.Drawing.Size(147, 140);
+            this.bunifuImageButton1.ImageZoomSize = new System.Drawing.Size(167, 160);
             this.bunifuImageButton1.InitialImage = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton1.InitialImage")));
-            this.bunifuImageButton1.Location = new System.Drawing.Point(8, 47);
-            this.bunifuImageButton1.Margin = new System.Windows.Forms.Padding(4);
+            this.bunifuImageButton1.Location = new System.Drawing.Point(6, 38);
             this.bunifuImageButton1.Name = "bunifuImageButton1";
             this.bunifuImageButton1.Rotation = 0;
             this.bunifuImageButton1.ShowActiveImage = true;
             this.bunifuImageButton1.ShowCursorChanges = true;
             this.bunifuImageButton1.ShowImageBorders = true;
             this.bunifuImageButton1.ShowSizeMarkers = false;
-            this.bunifuImageButton1.Size = new System.Drawing.Size(223, 197);
+            this.bunifuImageButton1.Size = new System.Drawing.Size(167, 160);
             this.bunifuImageButton1.TabIndex = 2;
             this.bunifuImageButton1.ToolTipText = "";
             this.bunifuImageButton1.WaitOnLoad = false;
@@ -722,9 +711,9 @@
             this.Driver_dgv.AllowUserToDeleteRows = false;
             this.Driver_dgv.AllowUserToResizeColumns = false;
             this.Driver_dgv.AllowUserToResizeRows = false;
-            dataGridViewCellStyle10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            dataGridViewCellStyle10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(179)))), ((int)(((byte)(179)))), ((int)(((byte)(179)))));
-            this.Driver_dgv.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(179)))), ((int)(((byte)(179)))), ((int)(((byte)(179)))));
+            this.Driver_dgv.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.Driver_dgv.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
@@ -733,14 +722,14 @@
             this.Driver_dgv.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.Driver_dgv.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.Driver_dgv.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle11.BackColor = System.Drawing.Color.DodgerBlue;
-            dataGridViewCellStyle11.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.WhiteSmoke;
-            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(115)))), ((int)(((byte)(204)))));
-            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.Driver_dgv.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.DodgerBlue;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.WhiteSmoke;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(115)))), ((int)(((byte)(204)))));
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.Driver_dgv.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.Driver_dgv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.Driver_dgv.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ID,
@@ -766,21 +755,20 @@
             this.Driver_dgv.CurrentTheme.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(179)))), ((int)(((byte)(179)))), ((int)(((byte)(179)))));
             this.Driver_dgv.CurrentTheme.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
             this.Driver_dgv.CurrentTheme.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(179)))), ((int)(((byte)(179)))), ((int)(((byte)(179)))));
-            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.Driver_dgv.DefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(179)))), ((int)(((byte)(179)))), ((int)(((byte)(179)))));
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.Driver_dgv.DefaultCellStyle = dataGridViewCellStyle3;
             this.Driver_dgv.EnableHeadersVisualStyles = false;
             this.Driver_dgv.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
             this.Driver_dgv.HeaderBackColor = System.Drawing.Color.DodgerBlue;
             this.Driver_dgv.HeaderBgColor = System.Drawing.Color.Empty;
             this.Driver_dgv.HeaderForeColor = System.Drawing.Color.WhiteSmoke;
-            this.Driver_dgv.Location = new System.Drawing.Point(476, 20);
-            this.Driver_dgv.Margin = new System.Windows.Forms.Padding(4);
+            this.Driver_dgv.Location = new System.Drawing.Point(357, 16);
             this.Driver_dgv.Name = "Driver_dgv";
             this.Driver_dgv.ReadOnly = true;
             this.Driver_dgv.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
@@ -789,7 +777,7 @@
             this.Driver_dgv.RowTemplate.Height = 40;
             this.Driver_dgv.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.Driver_dgv.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.Driver_dgv.Size = new System.Drawing.Size(896, 743);
+            this.Driver_dgv.Size = new System.Drawing.Size(672, 604);
             this.Driver_dgv.TabIndex = 1;
             this.Driver_dgv.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Light;
             this.Driver_dgv.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.Driver_dgv_CellClick);
@@ -835,32 +823,29 @@
             // 
             this.tabPage3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.tabPage3.Location = new System.Drawing.Point(4, 4);
-            this.tabPage3.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPage3.Size = new System.Drawing.Size(1397, 790);
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage3.Size = new System.Drawing.Size(1046, 639);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Buses";
             // 
             // tabPage4
             // 
+            this.tabPage4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
             this.tabPage4.Location = new System.Drawing.Point(4, 4);
-            this.tabPage4.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPage4.Size = new System.Drawing.Size(1397, 790);
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage4.Size = new System.Drawing.Size(1046, 639);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Calendary";
-            this.tabPage4.UseVisualStyleBackColor = true;
             // 
             // tabPage5
             // 
             this.tabPage5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.tabPage5.Location = new System.Drawing.Point(4, 4);
-            this.tabPage5.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPage5.Size = new System.Drawing.Size(1397, 790);
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage5.Size = new System.Drawing.Size(1046, 639);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "Stadistic";
             // 
@@ -868,10 +853,9 @@
             // 
             this.tabPage6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.tabPage6.Location = new System.Drawing.Point(4, 4);
-            this.tabPage6.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPage6.Size = new System.Drawing.Size(1397, 790);
+            this.tabPage6.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage6.Size = new System.Drawing.Size(1046, 639);
             this.tabPage6.TabIndex = 5;
             this.tabPage6.Text = "Config";
             // 
@@ -882,9 +866,10 @@
             this.tabPage7.Controls.Add(this.Login_btn);
             this.tabPage7.Controls.Add(this.bunifuLabel8);
             this.tabPage7.Location = new System.Drawing.Point(4, 4);
+            this.tabPage7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage7.Size = new System.Drawing.Size(1397, 790);
+            this.tabPage7.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage7.Size = new System.Drawing.Size(1046, 639);
             this.tabPage7.TabIndex = 6;
             this.tabPage7.Text = "Logout";
             // 
@@ -908,11 +893,11 @@
             this.bunifuButton21.ColorContrastOnClick = 45;
             this.bunifuButton21.ColorContrastOnHover = 45;
             this.bunifuButton21.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges7.BottomLeft = true;
-            borderEdges7.BottomRight = true;
-            borderEdges7.TopLeft = true;
-            borderEdges7.TopRight = true;
-            this.bunifuButton21.CustomizableEdges = borderEdges7;
+            borderEdges1.BottomLeft = true;
+            borderEdges1.BottomRight = true;
+            borderEdges1.TopLeft = true;
+            borderEdges1.TopRight = true;
+            this.bunifuButton21.CustomizableEdges = borderEdges1;
             this.bunifuButton21.DialogResult = System.Windows.Forms.DialogResult.None;
             this.bunifuButton21.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bunifuButton21.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -936,8 +921,7 @@
             this.bunifuButton21.IdleIconLeftImage = null;
             this.bunifuButton21.IdleIconRightImage = null;
             this.bunifuButton21.IndicateFocus = false;
-            this.bunifuButton21.Location = new System.Drawing.Point(729, 431);
-            this.bunifuButton21.Margin = new System.Windows.Forms.Padding(4);
+            this.bunifuButton21.Location = new System.Drawing.Point(547, 350);
             this.bunifuButton21.Name = "bunifuButton21";
             this.bunifuButton21.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bunifuButton21.OnDisabledState.BorderRadius = 20;
@@ -971,7 +955,7 @@
             this.bunifuButton21.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.bunifuButton21.OnPressedState.IconLeftImage = null;
             this.bunifuButton21.OnPressedState.IconRightImage = null;
-            this.bunifuButton21.Size = new System.Drawing.Size(267, 62);
+            this.bunifuButton21.Size = new System.Drawing.Size(200, 50);
             this.bunifuButton21.TabIndex = 21;
             this.bunifuButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuButton21.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1000,11 +984,11 @@
             this.Login_btn.ColorContrastOnClick = 45;
             this.Login_btn.ColorContrastOnHover = 45;
             this.Login_btn.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges8.BottomLeft = true;
-            borderEdges8.BottomRight = true;
-            borderEdges8.TopLeft = true;
-            borderEdges8.TopRight = true;
-            this.Login_btn.CustomizableEdges = borderEdges8;
+            borderEdges2.BottomLeft = true;
+            borderEdges2.BottomRight = true;
+            borderEdges2.TopLeft = true;
+            borderEdges2.TopRight = true;
+            this.Login_btn.CustomizableEdges = borderEdges2;
             this.Login_btn.DialogResult = System.Windows.Forms.DialogResult.None;
             this.Login_btn.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.Login_btn.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -1028,8 +1012,7 @@
             this.Login_btn.IdleIconLeftImage = null;
             this.Login_btn.IdleIconRightImage = null;
             this.Login_btn.IndicateFocus = false;
-            this.Login_btn.Location = new System.Drawing.Point(424, 431);
-            this.Login_btn.Margin = new System.Windows.Forms.Padding(4);
+            this.Login_btn.Location = new System.Drawing.Point(318, 350);
             this.Login_btn.Name = "Login_btn";
             this.Login_btn.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.Login_btn.OnDisabledState.BorderRadius = 20;
@@ -1063,7 +1046,7 @@
             this.Login_btn.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.Login_btn.OnPressedState.IconLeftImage = null;
             this.Login_btn.OnPressedState.IconRightImage = null;
-            this.Login_btn.Size = new System.Drawing.Size(267, 62);
+            this.Login_btn.Size = new System.Drawing.Size(200, 50);
             this.Login_btn.TabIndex = 20;
             this.Login_btn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.Login_btn.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1081,11 +1064,10 @@
             this.bunifuLabel8.CursorType = System.Windows.Forms.Cursors.Default;
             this.bunifuLabel8.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(179)))), ((int)(((byte)(179)))), ((int)(((byte)(179)))));
-            this.bunifuLabel8.Location = new System.Drawing.Point(244, 246);
-            this.bunifuLabel8.Margin = new System.Windows.Forms.Padding(4);
+            this.bunifuLabel8.Location = new System.Drawing.Point(183, 200);
             this.bunifuLabel8.Name = "bunifuLabel8";
             this.bunifuLabel8.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel8.Size = new System.Drawing.Size(968, 81);
+            this.bunifuLabel8.Size = new System.Drawing.Size(776, 65);
             this.bunifuLabel8.TabIndex = 4;
             this.bunifuLabel8.Text = "¿Seguro que quieres cerrar sesion?";
             this.bunifuLabel8.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -1121,20 +1103,121 @@
             this.bunifuFormDrag1.TitleBarOptions.TitleBarControl = this.Bar;
             this.bunifuFormDrag1.TitleBarOptions.UseBackColorOnDockingIndicators = false;
             // 
+            // Time_tm
+            // 
+            this.Time_tm.Enabled = true;
+            this.Time_tm.Tick += new System.EventHandler(this.Time_tm_Tick);
+            // 
+            // panel8
+            // 
+            this.panel8.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.panel8.BackColor = System.Drawing.Color.Transparent;
+            this.panel8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel8.BackgroundImage")));
+            this.panel8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.panel8.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.panel8.Location = new System.Drawing.Point(5, 175);
+            this.panel8.Margin = new System.Windows.Forms.Padding(2);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(510, 464);
+            this.panel8.TabIndex = 3;
+            // 
+            // bunifuCircleProgress1
+            // 
+            this.bunifuCircleProgress1.Animated = false;
+            this.bunifuCircleProgress1.AnimationInterval = 1;
+            this.bunifuCircleProgress1.AnimationSpeed = 1;
+            this.bunifuCircleProgress1.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuCircleProgress1.CircleMargin = 10;
+            this.bunifuCircleProgress1.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Bold);
+            this.bunifuCircleProgress1.ForeColor = System.Drawing.Color.White;
+            this.bunifuCircleProgress1.IsPercentage = false;
+            this.bunifuCircleProgress1.LineProgressThickness = 10;
+            this.bunifuCircleProgress1.LineThickness = 10;
+            this.bunifuCircleProgress1.Location = new System.Drawing.Point(547, 404);
+            this.bunifuCircleProgress1.Name = "bunifuCircleProgress1";
+            this.bunifuCircleProgress1.ProgressAnimationSpeed = 200;
+            this.bunifuCircleProgress1.ProgressBackColor = System.Drawing.Color.Gainsboro;
+            this.bunifuCircleProgress1.ProgressColor = System.Drawing.Color.DodgerBlue;
+            this.bunifuCircleProgress1.ProgressColor2 = System.Drawing.Color.DodgerBlue;
+            this.bunifuCircleProgress1.ProgressEndCap = Bunifu.UI.WinForms.BunifuCircleProgress.CapStyles.Round;
+            this.bunifuCircleProgress1.ProgressFillStyle = Bunifu.UI.WinForms.BunifuCircleProgress.FillStyles.Solid;
+            this.bunifuCircleProgress1.ProgressStartCap = Bunifu.UI.WinForms.BunifuCircleProgress.CapStyles.Round;
+            this.bunifuCircleProgress1.SecondaryFont = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.bunifuCircleProgress1.Size = new System.Drawing.Size(214, 214);
+            this.bunifuCircleProgress1.SubScriptColor = System.Drawing.Color.White;
+            this.bunifuCircleProgress1.SubScriptMargin = new System.Windows.Forms.Padding(5, -20, 0, 0);
+            this.bunifuCircleProgress1.SubScriptText = ".00";
+            this.bunifuCircleProgress1.SuperScriptColor = System.Drawing.Color.White;
+            this.bunifuCircleProgress1.SuperScriptMargin = new System.Windows.Forms.Padding(5, 20, 0, 0);
+            this.bunifuCircleProgress1.SuperScriptText = "°C";
+            this.bunifuCircleProgress1.TabIndex = 16;
+            this.bunifuCircleProgress1.Text = "30";
+            this.bunifuCircleProgress1.TextMargin = new System.Windows.Forms.Padding(0, 5, 0, 0);
+            this.bunifuCircleProgress1.Value = 30;
+            this.bunifuCircleProgress1.ValueByTransition = 30;
+            this.bunifuCircleProgress1.ValueMargin = new System.Windows.Forms.Padding(0, 5, 0, 0);
+            // 
+            // monthCalendar1
+            // 
+            this.monthCalendar1.CalendarDimensions = new System.Drawing.Size(1, 3);
+            this.monthCalendar1.Location = new System.Drawing.Point(783, 186);
+            this.monthCalendar1.Name = "monthCalendar1";
+            this.monthCalendar1.TabIndex = 17;
+            // 
+            // bunifuRadialGauge1
+            // 
+            this.bunifuRadialGauge1.AutoGenerateProgressColorWhenHigh = true;
+            this.bunifuRadialGauge1.AutoGenerateProgressColorWhenLow = false;
+            this.bunifuRadialGauge1.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuRadialGauge1.Font = new System.Drawing.Font("Century Gothic", 18F);
+            this.bunifuRadialGauge1.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.bunifuRadialGauge1.LighteningFactor = 70;
+            this.bunifuRadialGauge1.Location = new System.Drawing.Point(533, 186);
+            this.bunifuRadialGauge1.Margin = new System.Windows.Forms.Padding(7, 8, 7, 8);
+            this.bunifuRadialGauge1.Maximum = 100;
+            this.bunifuRadialGauge1.Minimum = 0;
+            this.bunifuRadialGauge1.Name = "bunifuRadialGauge1";
+            this.bunifuRadialGauge1.Prefix = "";
+            this.bunifuRadialGauge1.ProgressBackColor = System.Drawing.Color.White;
+            this.bunifuRadialGauge1.ProgressBgColor = System.Drawing.Color.White;
+            this.bunifuRadialGauge1.ProgressCap = Bunifu.UI.WinForms.BunifuRadialGauge.CapStyles.Flat;
+            this.bunifuRadialGauge1.ProgressColor = System.Drawing.Color.DodgerBlue;
+            this.bunifuRadialGauge1.ProgressColor1 = System.Drawing.Color.DodgerBlue;
+            this.bunifuRadialGauge1.ProgressColor2 = System.Drawing.Color.Crimson;
+            this.bunifuRadialGauge1.ProgressColorHigh = System.Drawing.Color.Crimson;
+            this.bunifuRadialGauge1.ProgressColorLow = System.Drawing.Color.DodgerBlue;
+            this.bunifuRadialGauge1.ProgressHighValueMark = 70;
+            this.bunifuRadialGauge1.RangeEnd = 100;
+            this.bunifuRadialGauge1.RangeLabelsColor = System.Drawing.Color.WhiteSmoke;
+            this.bunifuRadialGauge1.RangeLabelsFont = new System.Drawing.Font("Segoe UI", 8F);
+            this.bunifuRadialGauge1.RangeStart = 0;
+            this.bunifuRadialGauge1.ShowRangeLabels = true;
+            this.bunifuRadialGauge1.ShowValueLabel = true;
+            this.bunifuRadialGauge1.Size = new System.Drawing.Size(243, 171);
+            this.bunifuRadialGauge1.Suffix = "%";
+            this.bunifuRadialGauge1.TabIndex = 18;
+            this.bunifuRadialGauge1.Thickness = 30;
+            this.bunifuRadialGauge1.Value = 40;
+            this.bunifuRadialGauge1.ValueByTransition = 40;
+            this.bunifuRadialGauge1.ValueLabelColor = System.Drawing.Color.WhiteSmoke;
+            this.bunifuRadialGauge1.WarningMark = 70;
+            // 
             // Dashboard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(131)))), ((int)(((byte)(132)))), ((int)(((byte)(132)))));
-            this.ClientSize = new System.Drawing.Size(1473, 868);
+            this.ClientSize = new System.Drawing.Size(1105, 705);
             this.Controls.Add(this.Panels);
             this.Controls.Add(this.Bar);
             this.Controls.Add(this.Sidebar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Dashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Dashboard_Load);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
             this.Sidebar.ResumeLayout(false);
@@ -1168,9 +1251,9 @@
         private System.Windows.Forms.TabPage tabPage4;
         private System.Windows.Forms.TabPage tabPage5;
         private System.Windows.Forms.TabPage tabPage6;
-        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel2;
-        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel1;
-        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel3;
+        private Bunifu.UI.WinForms.BunifuLabel Date;
+        private Bunifu.UI.WinForms.BunifuLabel hour_lbl;
+        private Bunifu.UI.WinForms.BunifuLabel Salute_lbl;
         private Bunifu.UI.WinForms.BunifuDataGridView Driver_dgv;
         private Bunifu.UI.WinForms.BunifuImageButton bunifuImageButton1;
         private Bunifu.UI.WinForms.BunifuLabel date_lbl;
@@ -1202,6 +1285,11 @@
         private System.Windows.Forms.Panel Maximice_btn;
         private System.Windows.Forms.Panel Close_btn;
         private Bunifu.UI.WinForms.BunifuFormDrag bunifuFormDrag1;
+        private System.Windows.Forms.Timer Time_tm;
+        private System.Windows.Forms.Panel panel8;
+        private Bunifu.UI.WinForms.BunifuCircleProgress bunifuCircleProgress1;
+        private System.Windows.Forms.MonthCalendar monthCalendar1;
+        private Bunifu.UI.WinForms.BunifuRadialGauge bunifuRadialGauge1;
     }
 }
 

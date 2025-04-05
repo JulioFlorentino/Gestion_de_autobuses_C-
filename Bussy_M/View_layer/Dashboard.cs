@@ -167,5 +167,39 @@ namespace Bussy_M
         {
             this.WindowState = FormWindowState.Minimized;
         }
+
+        private void Calendary_btn_Click(object sender, EventArgs e)
+        {
+            Panels.SetPage(3);
+        }
+
+        private void Dashboard_Load(object sender, EventArgs e)
+        {
+            int current_hour = DateTime.Now.Hour;
+
+            if (current_hour >= 6 && current_hour < 12)
+            {
+                Salute_lbl.Text = "Buenos dias!";
+            }
+            else if (current_hour >= 12 && current_hour < 18)
+            {
+                Salute_lbl.Text = "Buenas tardes!";
+            }
+            else
+            {
+                Salute_lbl.Text = "Buenas noches!";
+            }
+        }
+
+        private void Time_tm_Tick(object sender, EventArgs e)
+        {
+            hour_lbl.Text = DateTime.Now.ToShortTimeString();
+            Date.Text = DateTime.Now.ToShortDateString();
+        }
+
+        private void resize()
+        {
+
+        }
     }
 }
