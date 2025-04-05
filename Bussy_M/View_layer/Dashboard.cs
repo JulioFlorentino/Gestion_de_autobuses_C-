@@ -201,5 +201,10 @@ namespace Bussy_M
         {
 
         }
+
+        private void Bus_btn_Click(object sender, EventArgs e)
+        {
+            Panels.SetPage(2);
+        }
     }
 }
